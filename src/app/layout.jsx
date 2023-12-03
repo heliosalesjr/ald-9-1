@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Aprendendo a Lidar com Dinheiro',
-  description: 'Site 1 do oitavo ano da série Aprendendo a Lidar com Dinheiro',
+  description: 'Site 1 do nono ano da série Aprendendo a Lidar com Dinheiro',
 }
 
 export default function RootLayout({ children }) {
