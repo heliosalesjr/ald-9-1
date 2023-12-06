@@ -51,6 +51,13 @@ function CiclosProj1() {
           </CardBody>
         </Card>
       </motion.div>
+
+      <div className="container mx-auto max-w-screen-xl py-8">
+        
+        <p className="mt-4 p-4 text-gray-800">
+        Ou seja, você terá orientações sobre como desenvolver o Ciclo de Projeto de Educador para auxiliar os estudantes a desenvolverem o Ciclo do Projeto Coletivo, de responsabilidade deles, de modo a elaborar, aplicar, executar, avaliar, sistematizar e comunicar seu Projeto Coletivo.
+        </p>
+      </div>
     </>
   );
 }
