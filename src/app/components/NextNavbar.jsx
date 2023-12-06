@@ -63,6 +63,13 @@ export default function App() {
         </NavbarItem>
         <NavbarItem>
           <Link className="transition-all duration-500 ease-in-out hover:text-blue-900 hover:border-b hover:border-primary-focus hover:font-semibold" 
+          href="/ciclos"
+          color="foreground">
+          Ciclos de Projetos
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link className="transition-all duration-500 ease-in-out hover:text-blue-900 hover:border-b hover:border-primary-focus hover:font-semibold" 
           href="/introducao"
           color="foreground">
           Intodução ao Site 1

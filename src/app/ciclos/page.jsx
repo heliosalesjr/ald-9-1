@@ -1,9 +1,13 @@
 import React from 'react'
+import CicloHero from '../components/Ciclos/CicloHero'
+import CiclosProj1 from '../components/Ciclos/CiclosProj1'
 
 function Ciclos() {
   return (
     <>
-    <h1>Olar</h1>    </>
+        <CicloHero />
+        <CiclosProj1 />
+    </>
   )
 }
 
