@@ -3,12 +3,12 @@ import { Card, CardBody } from "@nextui-org/react";
 
 const CicloCl4 = () => {
   const cardData = [
-    { title: "Card 1 - Lado Esquerdo", content: "Conteúdo do Card 1" },
-    { title: "Card 2 - Lado Direito", content: "Conteúdo do Card 2" },
-    { title: "Card 3 - Lado Esquerdo", content: "Conteúdo do Card 3" },
-    { title: "Card 4 - Lado Direito", content: "Conteúdo do Card 4" },
-    { title: "Card 5 - Lado Esquerdo", content: "Conteúdo do Card 5" },
-    { title: "Card 6 - Lado Direito", content: "Conteúdo do Card 6" },
+    { title: "1. Escolher um assunto", content: "Uma aspiração, questão, sonho... justificando essa escolha." },
+    { title: "2. Fazer um diagnóstico da situação.", content: "Como você avalia o andamento das coisas?" },
+    { title: "3. Elaborar um Plano de Ação", content: "Isto é, propor atividades e estratégias para atingir os objetivos, incluindo a atribuição de funções, o cronograma e um plano orçamentário." },
+    { title: "4. Executar as atividades", content: "Que foram planejadas com registros e monitoramento para correção de rota ao longo do processo." },
+    { title: "5. Avaliar", content: "Ao fim do percurso, em que medida se chegou ao resultado esperado." },
+    { title: "6. Planejar...", content: "...a celebração das conquistas e relatar essa experiência a colegas e demais interessados." },
   ];
 
   const renderCards = () => {
@@ -19,8 +19,8 @@ const CicloCl4 = () => {
         style={{ Width: '200px' }}
       >
         <Card className="h-full">
-          <CardBody className='bg-purple-300 flex flex-col justify-center items-center'>
-            <h1 className="text-center font-bold">{card.title}</h1>
+          <CardBody className='flex flex-col justify-center items-center'>
+            <h1 className="text-center font-bold text-primary-focus">{card.title}</h1>
             <p className="text-center">{card.content}</p>
           </CardBody>
         </Card>
@@ -30,13 +30,14 @@ const CicloCl4 = () => {
 
   return (
     <>
-        <div>
+        <div className='bg-primary-focus'>
             <h1>HOLA Q TALE</h1>
-        </div>
-        <div className="max-w-2xl mx-auto">
-        <div className="grid md:flex md:flex-col">
-            {renderCards()}
-        </div>
+            
+            <div className="max-w-2xl mx-auto">
+                <div className="grid md:flex md:flex-col">
+                    {renderCards()}
+                </div>
+            </div>
         </div>
     </>
     
