@@ -30,6 +30,6 @@ module.exports = {
     },
   },
   darkMode: "class",
-  plugins: [require("daisyui"),nextui()],
+  plugins: [require("daisyui"),nextui(),require('flowbite/plugin')],
   
 }
