@@ -9,11 +9,11 @@ const FeatureSection = () => {
       {/* Section: Design Block */}
       <section className="mb-32 text-center">
         <h2 className="mb-16 text-4xl font-gray-700 font-bold">
-          O que é o Programa de Educação Financeira da <u className="text-primary">BEĨ Educação</u>
+          O que é o Programa de Educação Financeira da <u className="text-primary-focus">BEĨ Educação</u>
         </h2>
         <div className="grid gap-x-6 md:grid-cols-3 lg:gap-x-12">
           <div className="mb-4 md:mb-0">
-            <div className="mb-6 inline-block rounded-md bg-gradient-to-tl from-primary-focus to-primary p-4 text-primary">
+            <div className="mb-6 inline-block rounded-md bg-gradient-to-tl from-primary-focus to-sky-700 p-4 text-primary">
               <BiMath className="h-8 w-8 text-white" />
             </div>
             <h5 className="mb-4 text-lg font-bold">O Programa</h5>
@@ -23,7 +23,7 @@ const FeatureSection = () => {
           </div>
 
           <div className="mb-4 md:mb-0">
-            <div className="mb-6 inline-block rounded-md bg-gradient-to-tl from-primary-focus to-primary p-4 text-primary">
+            <div className="mb-6 inline-block rounded-md bg-gradient-to-tl from-primary-focus to-sky-700 p-4 text-primary">
               <GiTeacher className="h-8 w-8 text-white" />
             </div>
             <h5 className="mb-4 text-lg font-bold">Nova BNCC</h5>
@@ -33,7 +33,7 @@ const FeatureSection = () => {
           </div>
 
           <div className="mb-4 md:mb-0">
-            <div className="mb-6 inline-block rounded-md bg-gradient-to-tl from-primary-focus to-primary p-4 text-primary">
+            <div className="mb-6 inline-block rounded-md bg-gradient-to-tl from-primary-focus to-sky-700 p-4 text-primary">
               <MdCastForEducation className="h-8 w-8 text-white" />
             </div>
             <h5 className="mb-4 text-lg font-bold">Diferenças</h5>

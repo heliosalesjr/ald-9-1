@@ -1,7 +1,7 @@
 function CiclosDica3() {
     return (
       <div className="flex items-center justify-center bg-primary py-8">
-        <div className="attention-box p-6 text-white text-center font-light text-lg">
+        <div className="attention-box p-6 max-w-6xl text-white text-center font-light text-lg">
           <h1 className="text-4xl font-bold text-center text-white p-8">
           Registro e Monitoramento
           </h1>
