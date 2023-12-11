@@ -9,7 +9,7 @@ export default function App() {
 
   const links = [
     { label: "Apresentação", href: "/" },
-    { label: "Etapas do Projeto", href: "/etapas" },
+    { label: "Ciclos do Projeto", href: "/ciclos" },
     { label: "Introdução ao Site 1", href: "/introducao" },
     { label: "Atividades do Projeto", href: "/atividades" },
     { label: "Matemática e Educação Financeira", href: "/matematica" },
@@ -54,13 +54,7 @@ export default function App() {
           Apresentação
         </Link>
         </NavbarItem>
-        <NavbarItem>
-          <Link className="transition-all duration-500 ease-in-out hover:text-blue-900 hover:border-b hover:border-primary-focus hover:font-semibold" 
-          href="/etapas"
-          color="foreground">
-          Etapas do Projeto
-          </Link>
-        </NavbarItem>
+        
         <NavbarItem>
           <Link className="transition-all duration-500 ease-in-out hover:text-blue-900 hover:border-b hover:border-primary-focus hover:font-semibold" 
           href="/ciclos"
@@ -107,7 +101,7 @@ export default function App() {
               href={link.href}
               size="lg"
               style={{ display: 'block', textAlign: 'center' }}
-              className="font-semibold text-primary py-4 hover:text-sky-800"
+              className="font-semibold text-primary-focus py-4 hover:text-sky-800"
             >
               {link.label}
             </Link>

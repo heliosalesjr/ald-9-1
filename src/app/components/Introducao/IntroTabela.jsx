@@ -5,11 +5,11 @@ import { Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, getKey
 const rows = [
   {
     key: "1",
-    name: "Consumo sustentável e economia circular",
-    role: "1. Como consumir de maneira sustentável? 2. Como não gastar mais do que recebemos?",
-    status: "I - Diagnóstico. II - Conteúdos e habilidades. III - Planejamento.",
-    location: "Porcentagens. / Notação científica. / Volume de bloco retangular e medidas de capacidade. / Princípio multiplicativo da contagem.",
-    department: "Ferramentas Google. Mapa conceitual.",
+    name: "1",
+    role: "1. Eu quero dinheiro para quê? 2. / Futuro, aqui vou eu!",
+    status: "1. Definição de conteúdos. /  2. Diagnóstico. / 3. Plano Didático Ativo.",
+    location: "Operações com números racionais (decimal). / Interpretação de gráficos e tabelas. / Orçamento. / Renda fixa e variável. / Custo total.",
+    department: "Ferramentas Google.",
   },
 ];
 
