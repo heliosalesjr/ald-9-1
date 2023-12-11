@@ -3,20 +3,20 @@ import React from 'react';
 function AtiDiagnostico2() {
   return (
     <div className="max-w-screen-xl mx-auto p-4">
-      <h1 className="font-bold text-2xl md:text-4xl sm:text-3xl text-gray-700 py-8 text-center">Diagnóstico 2: Conhecimentos prévios de Educação Financeira e Matemática</h1>
+      <h1 className="font-semibold text-2xl md:text-4xl sm:text-3xl text-gray-700 py-8 text-center">Diagnóstico 2: Perfil da Turma</h1>
       <p className='text-gray-700 py-4'>
-        Com este diagnóstico, é possível avaliar até que ponto os estudantes dominam os conteúdos que são pré-requisitos para a aplicação deste programa. Se os jovens não dominam conhecimentos básicos, não adianta avançar com o programa sem resolver as dificuldades prévias. Nesse caso, é preciso adotar estratégias para recuperar o conhecimento de forma que todos possam avançar no aprendizado, especialmente ao aplicar os conceitos nos casos de uso do dinheiro e educação financeira. Portanto, com esse primeiro diagnóstico, você consegue ao mesmo tempo:
-      </p>
-      <ul className="list-disc pl-8">
-        <li className='text-gray-700 py-2'>Avançar nos conteúdos de Matemática e Educação Financeira;</li>
-        <li className='text-gray-700 py-2'>Recuperar alguns pré-requisitos de Matemática para quem ainda não os domina.</li>
+      Neste diagnóstico você pode conhecer as principais características da realidade da turma, incluindo as da comunidade local: dificuldades e potenciais socioambientais e econômicos. Conhecendo a realidade da turma, será possível pensar em estratégias com as quais os jovens se sentirão familiarizados. Quando se fala de algo que tem relação com a realidade do estudante, o interesse pela aprendizagem aumenta e ela se torna mais significativa.
+      </p><br></br>
+      <p>
+      Você pode pesquisar questões como:
+      </p><br></br>
+      <ul className="list-disc pl-8 pb-8">
+        <li className='text-gray-700 py-2'>Idade: qual a idade de cada um? Qual a média de idade dos jovens daquela turma?</li>
+        <li className='text-gray-700 py-2'>Atividades fora da escola: há jovens que trabalham? São empregados ou exercem algum tipo de atividade eventual remunerada? Ajudam em casa? Namoram? Praticam esportes? Estudam música, dançam ou se dedicam a algum outro tipo de atividade artística?</li>
+        <li className='text-gray-700 py-2'>Interesses: quais os interesses de cada um? Eles já pensaram em projetos de vida, têm sonhos que querem conquistar ou desafios que querem superar?</li>
+        <li className='text-gray-700 py-2'>Atitudes e valores: que valores norteiam as escolhas desses jovens? O que eles consideram importante na vida? Quem são as pessoas que admiram e por quê?</li>
       </ul>
-      <p className='text-gray-700 py-4'>
-        Antes, porém, avise aos estudantes que o objetivo é saber o que eles já conhecem e não atribuir nota, porque assim eles se sentirão mais confortáveis com o livro e o projeto que vão realizar. Para detectar competências e habilidades, um bom ponto de partida é pensar: Que conteúdos prévios são necessários para abordar esses temas de Educação Financeira e Matemática?.
-      </p>
-      <p className='text-gray-700 py-4'>
-        Para realizar este diagnóstico, você poderá elaborar uma sondagem por meio do Google Formulários e enviá-la aos estudantes via Google Sala de Aula, deixando o link disponível na aba Atividades da turma correspondente. Você poderá visualizar os resultados de forma assíncrona, à medida que os jovens realizam as atividades. Como todas as respostas ficarão disponíveis em seu Google Drive, você poderá acessá-las sempre que necessário ao longo do projeto.
-      </p>
+      
     </div>
   );
 }
