@@ -11,6 +11,7 @@ import Divider from '../components/Divider'
 import AtiProfessores from '../components/Atividades/AtiProfessores'
 import AtiDiag1 from '../components/Atividades/AtiDiag1'
 import AtiDiag1part2 from '../components/Atividades/AtiDiag1-2'
+import TestingScroll from '../components/Atividades/TestingScroll'
 
 
 function Atividades() {
@@ -24,6 +25,7 @@ function Atividades() {
         <AtiDiag1part2  />
         <AtiDiagnostico2 />
         <AtiFerramentas />
+        <TestingScroll />
         <AtiDica />
         
         <AtiSugestao />

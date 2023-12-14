@@ -3,9 +3,9 @@ import { Card, CardBody } from "@nextui-org/react";
 
 function AtiDiag1part2() {
   return (
-    <div className="bg-gradient-to-b from-primary to-primary-focus flex justify-center items-center py-4">
+    <div className="bg-gradient-to-b from-primary to-primary-focus flex justify-center items-center pt-4 pb-4">
       <div className="flex justify-center items-center">
-        <div className="flex mx-auto sm:flex-col">
+        <div className="flex mx-auto ">
           <Card className="m-8 hover:scale-105 transition-transform duration-300">
             <CardBody className="flex justify-center items-center h-full">
               <p className="text-center">
