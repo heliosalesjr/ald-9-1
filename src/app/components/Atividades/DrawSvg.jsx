@@ -89,11 +89,13 @@ const VectorContainer = styled.div`
   width: 100%;
   height: 100%;
   overflow: hidden;
+  color: red;
 
   svg {
     width: 100%;
     height: 100%;
     display: inline-block;
+    
   }
 
   @media (max-width: 48em) {

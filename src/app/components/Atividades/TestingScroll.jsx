@@ -4,6 +4,7 @@ import React, { useLayoutEffect, useRef } from "react";
 import styled from "styled-components";
 import DrawSvg from "./DrawSvg";
 
+
 const TestingScroll = () => {
   const revealRefs = useRef([]);
   revealRefs.current = [];
@@ -42,7 +43,7 @@ const TestingScroll = () => {
 
   return (
     <Section id="roadmap">
-      <Title>Aqui nos vamos cabron!</Title>
+      <Title>Siga os itens na timeline</Title>
       <Container>
         <SvgContainer>
           <DrawSvg />
@@ -97,7 +98,7 @@ const RoadmapItem = ({ title, subtext, addToRef }) => {
 const Section = styled.section`
   min-height: 100vh;
   width: 100vw;
-  background-color: #9999FF;
+  background-color: #FFF;
   position: relative;
 `;
 
@@ -105,7 +106,7 @@ const Title = styled.h1`
   font-size: 48px;
   
   font-weight: 800;
-  color: blue;
+  color: #8080FF;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -121,7 +122,7 @@ const Title = styled.h1`
 const Container = styled.div`
   width: 70%;
   height: 200vh;
-  background-color: ${(props) => props.theme.body};
+  background-color: white;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -141,6 +142,7 @@ const SvgContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: blue;
 `;
 
 const Items = styled.ul`
@@ -163,21 +165,21 @@ const Items = styled.ul`
     }
 
     div {
-      border-radius: 50px 0 50px 0;
+      border-radius: 25px 0 25px 0;
       text-align: right;
 
       @media (max-width: 48em) {
-        border-radius: 0 50px 0 50px;
+        border-radius: 0 25px 0 25px;
         
         text-align: left;
 
         p {
-          border-radius: 0 40px 0 40px;
+          border-radius: 0 25px 0 25px;
         }
       }
     }
     p {
-      border-radius: 40px 0 40px 0;
+      border-radius: 25px 0 25px 0;
     }
   }
 
@@ -189,12 +191,12 @@ const Items = styled.ul`
     }
 
     div {
-      border-radius: 0 50px 0 50px;
+      border-radius: 0 25px 0 25px;
       text-align: left;
     }
 
     p {
-      border-radius: 0 40px 0 40px;
+      border-radius: 0 25px 0 25px;
     }
   }
 `;
@@ -203,7 +205,7 @@ const Item = styled.li`
   width: 100%;
   height: 100%;
   display: flex;
-
+  
   @media (max-width: 48em) {
     justify-content: flex-end !important;
   }
