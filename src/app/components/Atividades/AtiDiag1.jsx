@@ -14,7 +14,7 @@ const AtiDiag1 = () => {
             que todos possam avançar no aprendizado, especialmente ao aplicar os conceitos nos casos de uso do dinheiro e educação
             financeira. Portanto, com esse primeiro diagnóstico, você consegue ao mesmo tempo:
             <ul className="list-disc pl-6 mt-4 mx-4">
-              <li>Avançar nos conteúdos de Matemática e Educação Financeira;</li>
+              <li>Avançar nos conteúdos de Matemática e Educação Financeira.</li>
               <li>Recuperar alguns pré-requisitos de Matemática para quem ainda não os domina.</li>
           </ul>
         </p>
