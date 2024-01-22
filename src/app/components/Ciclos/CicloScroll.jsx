@@ -6,7 +6,7 @@ import styled from "styled-components";
 import DrawSvg from "./DrawSvg";
 import { motion, AnimatePresence, useAnimation } from "framer-motion";
 
-const TestingScroll = () => {
+const CicloScroll = () => {
   const revealRefs = useRef([]);
   revealRefs.current = [];
 
@@ -235,4 +235,4 @@ const Text = styled.span`
   }
 `;
 
-export default TestingScroll;
+export default CicloScroll;

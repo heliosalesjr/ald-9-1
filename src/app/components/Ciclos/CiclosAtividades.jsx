@@ -2,7 +2,7 @@ import React from 'react';
 
 const CiclosAtividades = () => {
   return (
-    <div className='bg-primary-focus'>
+    <div className='bg-slate-500'>
       <h1 className="text-4xl font-bold text-center text-white p-8">
         Atividades dos estudantes e dos professores
       </h1>

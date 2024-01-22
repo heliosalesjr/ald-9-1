@@ -5,9 +5,9 @@ import { motion } from 'framer-motion'
 function AtiFerramentas() {
   return (
     <>
-      <div className='mx-auto max-w-screen-xl '>
-        <h2 className='font-bold text-2xl md:text-4xl sm:text-3xl text-gray-700 py-4 text-center'>Ferramentas que podem ser utilizadas para fazer esse diagnóstico</h2>
-        <p className="text-gray-800 text-center">Criamos um link para cada uma das sugestões de ferramentas já com o modelo de aplicação com os estudantes. Clique em cada uma dessas ferramentas para conhecê-las e então aplicá-las com os estudantes por meio da plataforma Google:</p>
+      <div className='mx-auto max-w-screen-xl pt-8'>
+        <h2 className='font-bold text-4xl text-slate-700 py-4 text-center'>Ferramentas que podem ser utilizadas para fazer esse diagnóstico</h2>
+        <p className="text-gray-800 text-center py-4">Criamos um link para cada uma das sugestões de ferramentas já com o modelo de aplicação com os estudantes. Clique em cada uma dessas ferramentas para conhecê-las e então aplicá-las com os estudantes por meio da plataforma Google:</p>
       </div>
       <motion.div className="grid grid-cols-1 mx-auto max-w-screen-xl md:grid-cols-3 sm:grid-cols-1 gap-8 px-8"
         initial={{ opacity: 0, scale: 0.5 }}

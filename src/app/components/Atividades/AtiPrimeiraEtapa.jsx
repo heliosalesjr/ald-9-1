@@ -6,11 +6,11 @@ import { motion } from 'framer-motion';
 function AtiPrimeiraEtapa() {
   return (
     <>
-      <div className="container mx-auto max-w-screen-xl py-8">
-        <h1 className="font-semibold text-2xl md:text-5xl sm:text-3xl text-gray-700 py-4 text-center">
+      <div className="container mx-auto max-w-7xl py-8">
+        <h1 className="font-bold text-4xl text-slate-700 py-4 text-center">
         A primeira etapa de aplicação do projeto
         </h1>
-        <p className="mt-4 p-4 text-gray-800">
+        <p className="mt-4 p-4 text-slate-800 text-lg">
         Alunos e professores possuem atividades a serem desenvolvidas. Vamos conhecê-las.
         </p>
       </div>

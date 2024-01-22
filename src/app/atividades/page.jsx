@@ -12,6 +12,8 @@ import AtiProfessores from '../components/Atividades/AtiProfessores'
 import AtiDiag1 from '../components/Atividades/AtiDiag1'
 import AtiDiag1part2 from '../components/Atividades/AtiDiag1-2'
 import TestingScroll from '../components/Atividades/TestingScroll'
+import AtiDiagEstudAcc from '../components/Atividades/AtiDiagEstudAcc'
+import AtiCardsEstud from '../components/Atividades/AtiCardsEstud'
 
 
 function Atividades() {
@@ -22,13 +24,15 @@ function Atividades() {
         <AtiPrimeiraEtapa />
         <AtiProfessores />
         <AtiDiag1 />
-        <AtiDiag1part2  />
+        
         <AtiDiagnostico2 />
         <AtiFerramentas />
-        <TestingScroll />
-        <AtiDica />
         
+        <AtiDica />
+        <AtiDiagEstudAcc />
+        <AtiCardsEstud />
         <AtiSugestao />
+        
         <AtiBotaoNext />
         
         
