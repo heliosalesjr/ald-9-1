@@ -34,7 +34,7 @@ const AtiDiag1 = () => {
             <AccordionItem key="2" aria-label="Accordion 2" title="Realizando o diagnóstico">
               <p className='text-slate-700'>
               Para realizar este diagnóstico, você poderá elaborar uma sondagem por meio do Formulários Google e enviá-la
-                aos estudantes via Google Sala de Aula, deixando o link disponível na aba "Atividades" da turma
+                aos estudantes via Google Sala de Aula, deixando o link disponível na aba Atividades da turma
                 correspondente. Você poderá visualizar os resultados de forma assíncrona, à medida que os jovens realizam
                 as atividades. Como todas as respostas ficarão disponíveis em seu Google Drive, você poderá acessá-las
                 sempre que necessário ao longo do projeto. Você pode se inspirar em um modelo clicando aqui.
