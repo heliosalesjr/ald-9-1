@@ -5,8 +5,8 @@ const AtiDiag1 = () => {
   return (
     <div className="container mx-auto max-w-7xl flex flex-col md:flex-row items-center justify-center md:justify-between p-8">
       <div className="md:w-1/2 pt-8 pb-8">
-        {/* Conteúdo da primeira coluna */}
-        <h1 className="text-3xl font-bold text-center text-slate-700">Diagnóstico 1: Conhecimentos prévios de Educação Financeira e Matemática</h1>
+        
+        <h1 className="text-3xl font-bold text-center text-slate-700">Diagnóstico 1 - Conhecimentos prévios de Educação Financeira e Matemática</h1>
         <p className="font-gray-800 mt-4 pt-4">
         Com este diagnóstico, é possível avaliar até que ponto os estudantes dominam os conteúdos que são pré-requisitos
             para a aplicação deste programa. Se os jovens não dominam conhecimentos básicos, não adianta avançar com o programa
@@ -18,10 +18,10 @@ const AtiDiag1 = () => {
               <li>Recuperar alguns pré-requisitos de Matemática para quem ainda não os domina.</li>
           </ul>
         </p>
-        {/* Adicione sua imagem aqui, se necessário */}
+        
       </div>
       <div className="p-8 md:w-1/2 mt-8 md:mt-0">
-        {/* Conteúdo da segunda coluna */}
+       
         <Accordion variant='bordered'>
             <AccordionItem key="1" aria-label="Accordion 1" title="O que fazer antes?">
               <p className='text-slate-700'>
