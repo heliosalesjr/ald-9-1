@@ -6,7 +6,7 @@ function MatContextualizando() {
         <div className="p-4 mb-4">
             <h1 className="text-4xl font-semibold text-slate-700 mb-4">Contextualizando o ensino de Matemática</h1>
             <p className="text-slate-800">
-            Quando iniciamos novos conteúdos, são inúmeras as vezes em que os alunos perguntam “mas onde vou usar isso em minha vida?” ou “para quê serve isso?". Estas perguntas surgem quando os alunos não fazem conexões entre o conteúdo e sua realidade e/ou necessidade em usá-lo. Para conseguir superar essa situação é necessário que o ensino de Matemática seja contextualizado, isto é, que faça sentido para a realidade daquele indivíduo.
+            Quando iniciamos novos conteúdos, são inúmeras as vezes em que os alunos perguntam <strong>mas onde vou usar isso em minha vida?</strong> ou <strong>para quê serve isso?</strong>. Estas perguntas surgem quando os alunos não fazem conexões entre o conteúdo e sua realidade e/ou necessidade em usá-lo. Para conseguir superar essa situação é necessário que o ensino de Matemática seja contextualizado, isto é, que faça sentido para a realidade daquele indivíduo.
             </p>
         </div>
 
