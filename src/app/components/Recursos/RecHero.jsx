@@ -10,7 +10,7 @@ const RecHero = () => {
             Recursos Didáticos
             </h1>
             <p className="text-lg text-white py-8">
-            Para auxiliá-los a criar, organizar, aplicar e corrigir atividades, apresentaremos as ferramentas Google. E, para tornar a aula mais interativa e auxiliar os alunos a desenvolverem autonomia sobre o conteúdo que aprendem, apresentaremos conceitos e ferramentas para construção de um Mapa Mental e de um Infográfico.
+            Para auxiliá-los a criar, organizar, aplicar e corrigir atividades, apresentaremos as ferramentas Google. 
             </p>
             </div>
             <div className="hidden md:block">

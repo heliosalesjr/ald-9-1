@@ -8,6 +8,7 @@ import RecMapaMental from '../components/Recursos/RecMapaMental'
 import RecSugestao from '../components/Recursos/RecSugestao'
 import RecFiqueSabendo from '../components/Recursos/RecFiqueSabendo'
 import RecHero from '../components/Recursos/RecHero'
+import RecBomTrabalho from '../components/Recursos/RecBomTrabalho'
 
 
 function Recursos() {
@@ -18,10 +19,7 @@ function Recursos() {
         <RecGoogle/>
         <RecDicas />
         <RecLembre/>
-        <RecMapaMental/>
-        <RecSugestao  />
-        <RecFiqueSabendo />
-        <RecInfografico/>
+        <RecBomTrabalho />
         
     
     </>
