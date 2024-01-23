@@ -12,6 +12,9 @@ import AtiProfessores from '../components/Atividades/AtiProfessores'
 import AtiDiag1 from '../components/Atividades/AtiDiag1'
 import AtiDiagEstudAcc from '../components/Atividades/AtiDiagEstudAcc'
 import AtiCardsEstud from '../components/Atividades/AtiCardsEstud'
+import AtiDicaGrupo from '../components/Atividades/AtiDicaGrupo'
+import AtiConhecendo from '../components/Atividades/AtiConhecendo'
+import AtiDicaUltima from '../components/Atividades/AtiDicaUltima'
 
 
 function Atividades() {
@@ -29,8 +32,10 @@ function Atividades() {
         <AtiDica />
         <AtiDiagEstudAcc />
         <AtiCardsEstud />
+        <AtiDicaGrupo />
         <AtiSugestao />
-        
+        <AtiConhecendo />
+        <AtiDicaUltima />
         <AtiBotaoNext />
         
         
