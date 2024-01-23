@@ -3,7 +3,7 @@ import React from "react";
 
 function MatPropriedades() {
     return (
-        <div className="container my-24 mx-auto md:px-6">
+        <div className="container my-4 mx-auto md:px-6">
           {/* Section: Design Block */}
           <section className="bg-gradient-to-br from-primary to-primary-focus mb-32">
             <div className="px-6 py-6 text-center md:px-12 lg:text-left">
@@ -19,7 +19,7 @@ function MatPropriedades() {
                         href="https://jamboard.google.com/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="hover:underline"
+                        className="underline"
                       >
                         Google Jamboard
                       </a>{" "}

@@ -3,7 +3,7 @@ import React from 'react';
 function MatSugestao() {
   return (
     <div className="relative max-w-screen-xl mx-auto p-8">
-      <h1 className="text-5xl font-bold mb-8">
+      <h1 className="text-4xl font-semibold text-slate-700 mb-8">
         Sugestão de ferramentas para usar em sala
       </h1>
       <div className="flex flex-col md:flex-row">
@@ -13,7 +13,7 @@ function MatSugestao() {
           </a>
         </div>
         <div className="w-full md:w-2/3">
-          <h2 className="text-2xl font-bold mb-4">Site Por Quê?</h2>
+          <h2 className="text-2xl font-bold mb-4 text-slate-700">Site Por Quê?</h2>
           <p>
             Procurar conteúdo na internet pode ser uma tarefa trabalhosa, uma vez que podemos não encontrar material no formato ou linguagem adequada para o uso com os estudantes. Pensando nesta dificuldade enfrentada por professores, sugerimos como ferramenta de apoio o{' '}
             <a href="https://porque.com.br/" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">
@@ -41,7 +41,7 @@ function MatSugestao() {
       </div>
       <div className="flex mt-8 flex-col md:flex-row">
         <div className="w-full md:w-2/3 pr-4">
-          <h2 className="text-2xl font-bold mb-4">Formulários Google</h2>
+          <h2 className="text-2xl font-bold mb-4 text-slate-700">Formulários Google</h2>
           <p>
             Ao fim da aula, você pode solicitar um feedback dos estudantes por meio do Formulários Google e enviá-lo via Google Sala de Aula. Você poderá visualizar os resultados de forma assíncrona, à medida que os jovens realizam as atividades. Como todas as respostas ficarão disponíveis em seu Google Drive, você poderá acessá-las sempre que necessário ao longo do projeto.
             Você pode se inspirar em um modelo clicando{' '}

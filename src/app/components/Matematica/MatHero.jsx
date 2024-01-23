@@ -10,7 +10,7 @@ const MatHero = () => {
             Matemática e Educação Financeira
             </h1>
             <p className="text-lg text-white py-8">
-            Na Primeira Etapa, temos a apresentação dos temas de Matemática e Educação Financeira contextualizados com as atividades do projeto. Para iniciar a conversa com os estudantes, apresente o conceito de Educação Financeira. Os temas de Matemática previstos para esta etapa são Sistema de numeração decimal, Operações com números naturais/ Divisão Euclidiana, Propriedades da igualdade e Problemas sobre medidas envolvendo grandezas. 
+            Na Primeira Etapa, temos a apresentação dos temas de Matemática e Educação Financeira contextualizados com as atividades do projeto. Para iniciar a conversa com os estudantes, apresente o conceito de Educação Financeira. Os temas de Matemática previstos para esta etapa são operações com números racionais e interpretação de gráficos e tabelas. 
             </p>
             </div>
             <div className="hidden md:block">
