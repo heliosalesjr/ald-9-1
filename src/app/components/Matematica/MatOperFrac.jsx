@@ -46,12 +46,12 @@ function MatOperFrac() {
                             <CiBookmarkCheck className="text-4xl text-primary mb-4" />
                         </div>
                        
-                        <p className='text-sm text-slate-700 text-left'>As atividades do Capítulo 1 do Livro do Estudante estão disponíveis <a href="https://forms.gle/Rk4NfXsmRLRvJghA8" target="_blank" rel="noopener noreferrer" className="underline"> neste formulário </a>. Você poderá enviá-las aos estudantes e coletar as respostas de forma assíncrona a fim de avaliar o conhecimento dos jovens sobre operações com frações e decimais.
+                        <p className='text-sm text-slate-700 text-left'>As atividades do Capítulo 1 do Livro do Estudante estão disponíveis <a href="https://forms.gle/Rk4NfXsmRLRvJghA8" target="_blank" rel="noopener noreferrer" className="underline text-blue-800 hover:text-purple-800"> neste formulário </a>. Você poderá enviá-las aos estudantes e coletar as respostas de forma assíncrona a fim de avaliar o conhecimento dos jovens sobre operações com frações e decimais.
 
                         </p>
                         <br></br>
                         <p className='text-sm text-slate-700 text-left'>
-                        Você também pode conferir <a href="https://drive.google.com/file/d/1T-Bh9KNk8wi5iw-SvzcTcv-38uuRpeaF/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="underline">aqui</a> o conteúdo do livro Tópicos em Matemática sobre operações com números decimais e <a href="https://drive.google.com/file/d/1ydvl7SSfqJkzHkslB7g5XKBNxEmfx2YT/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="underline">aqui</a> sobre operações com números fracionários.
+                        Você também pode conferir <a href="https://drive.google.com/file/d/1T-Bh9KNk8wi5iw-SvzcTcv-38uuRpeaF/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="underline text-blue-800 hover:text-purple-800">aqui</a> o conteúdo do livro Tópicos em Matemática sobre operações com números decimais e <a href="https://drive.google.com/file/d/1ydvl7SSfqJkzHkslB7g5XKBNxEmfx2YT/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="underline text-blue-800 hover:text-purple-800">aqui</a> sobre operações com números fracionários.
                         </p>
                     </div>
         </div>

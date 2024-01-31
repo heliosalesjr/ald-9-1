@@ -7,10 +7,10 @@ function FAQDaisy() {
       <div className="md:w-1/2">
         {/* Conteúdo da primeira coluna */}
         <h1 className="text-5xl font-bold text-center text-gray-700">Materiais do Programa</h1>
-        <p className="text-xl font-gray-800 text-center mt-4">Saiba mais clicando no nome do material.</p>
+        <p className="text-xl font-gray-800 text-center mt-4">Saiba mais clicando sobre o material.</p>
         {/* Adicione sua imagem aqui, se necessário */}
       </div>
-      <div className="md:w-1/2 mt-8 md:mt-0">
+      <div className="w-full md:w-1/2 mt-8 md:mt-0">
         {/* Conteúdo da segunda coluna */}
         <Accordion variant='bordered'>
             <AccordionItem key="1" aria-label="Accordion 1" title="Livro do Estudante">

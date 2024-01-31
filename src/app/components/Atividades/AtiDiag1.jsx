@@ -20,7 +20,7 @@ const AtiDiag1 = () => {
         </p>
         
       </div>
-      <div className="p-8 md:w-1/2 mt-8 md:mt-0">
+      <div className="p-8 md:w-1/2 mt-8 md:mt-0 w-full">
        
         <Accordion variant='bordered'>
             <AccordionItem key="1" aria-label="Accordion 1" title="O que fazer antes?">

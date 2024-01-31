@@ -21,7 +21,7 @@ function MatInterpretacao() {
         <div className="max-w-5xl mx-auto items-center justify-center py-8">
               <div className="attention-box mx-8 text-slate-800 text-center text-lg border-2 border-primary-focus rounded-lg p-8">
                 
-                <p>Você pode conferir <a href="https://drive.google.com/file/d/11M6-BpVnA50PIGqfOuEcq4IRW1Ou0iH6/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="underline">aqui</a> o conteúdo sobre o assunto no livro Tópicos em Matemática. Veja <a href="https://drive.google.com/file/d/1WHA4J-QCjm3PcD9BtO4HJa7kOELCzCDN/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="underline">aqui</a> como a professora Jussara utilizou o tema de orçamento juntamente com gráficos e tabelas para auxiliar os alunos no desenvolvimento do Projeto Coletivo.</p>
+                <p>Você pode conferir <a href="https://drive.google.com/file/d/11M6-BpVnA50PIGqfOuEcq4IRW1Ou0iH6/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="underline text-blue-800 hover:text-purple-800">aqui</a> o conteúdo sobre o assunto no livro Tópicos em Matemática. Veja <a href="https://drive.google.com/file/d/1WHA4J-QCjm3PcD9BtO4HJa7kOELCzCDN/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="underline text-blue-800 hover:text-purple-800">aqui</a> como a professora Jussara utilizou o tema de orçamento juntamente com gráficos e tabelas para auxiliar os alunos no desenvolvimento do Projeto Coletivo.</p>
                 
                 
               </div>

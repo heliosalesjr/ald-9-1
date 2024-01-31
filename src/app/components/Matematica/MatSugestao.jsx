@@ -16,23 +16,23 @@ function MatSugestao() {
           <h2 className="text-2xl font-bold mb-4 text-slate-700">Site Por Quê?</h2>
           <p>
             Procurar conteúdo na internet pode ser uma tarefa trabalhosa, uma vez que podemos não encontrar material no formato ou linguagem adequada para o uso com os estudantes. Pensando nesta dificuldade enfrentada por professores, sugerimos como ferramenta de apoio o{' '}
-            <a href="https://porque.com.br/" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">
+            <a href="https://porque.com.br/" target="_blank" rel="noopener noreferrer" className="text-blue-800 hover:text-purple-800 underline">
               site Por Quê?
             </a>
             . Este site foi desenvolvido para aproximar o público não especializado aos princípios econômicos básicos e mostrar a importância e a aplicação prática desse conhecimento. Portanto, seu material é produzido em linguagem acessível, ao mesmo tempo que trata dos mais variados temas dentro de Economia e Educação Financeira. Você pode consultar{' '}
-            <a href="https://porque.com.br/categoria/graficos/" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">
+            <a href="https://porque.com.br/categoria/graficos/" target="_blank" rel="noopener noreferrer" className="text-blue-800 hover:text-purple-800 underline">
               gráficos
             </a>
             ,{' '}
-            <a href="https://porque.com.br/categoria/infograficos/" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">
+            <a href="https://porque.com.br/categoria/infograficos/" target="_blank" rel="noopener noreferrer" className="text-blue-800 hover:text-purple-800 underline">
               infográficos
             </a>
             , artigos de{' '}
-            <a href="https://porque.com.br/categoria/blog/" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">
+            <a href="https://porque.com.br/categoria/blog/" target="_blank" rel="noopener noreferrer" className="text-blue-800 hover:text-purple-800 underline">
               blog
             </a>
             , e{' '}
-            <a href="https://porque.com.br/videos/" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">
+            <a href="https://porque.com.br/videos/" target="_blank" rel="noopener noreferrer" className="text-blue-800 hover:text-purple-800 underline">
               vídeos
             </a>
             {' '}sobre temas de economia e atualidades, e também a Econopédia, uma enciclopédia virtual de termos essenciais da Economia.
@@ -45,11 +45,11 @@ function MatSugestao() {
           <p>
             Ao fim da aula, você pode solicitar um feedback dos estudantes por meio do Formulários Google e enviá-lo via Google Sala de Aula. Você poderá visualizar os resultados de forma assíncrona, à medida que os jovens realizam as atividades. Como todas as respostas ficarão disponíveis em seu Google Drive, você poderá acessá-las sempre que necessário ao longo do projeto.
             Você pode se inspirar em um modelo clicando{' '}
-            <a href="https://www.google.com/intl/pt-BR/forms/about/" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">
+            <a href="https://www.google.com/intl/pt-BR/forms/about/" target="_blank" rel="noopener noreferrer" className="text-blue-800 hover:text-purple-800 underline">
               aqui
             </a>
             . Importante: não envie esse formulário para seus alunos. Você precisa criar o seu para conseguir acessar as respostas. Caso você envie o link do modelo para seus estudantes, não teremos como identificar quais foram as respostas da sua turma. Para retomar como elaborar um formulário do Google, acesse este{' '}
-            <a href="https://youtu.be/C87YFYToHTA" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">
+            <a href="https://youtu.be/C87YFYToHTA" target="_blank" rel="noopener noreferrer" className="text-blue-800 hover:text-purple-800 underline">
               tutorial
             </a>
             

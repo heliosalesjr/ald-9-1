@@ -6,8 +6,8 @@ import { motion } from 'framer-motion';
 function CiclosProj1() {
   return (
     <>
-      <div className="container mx-auto max-w-screen-xl py-8">
-        <h1 className="font-bold text-2xl md:text-5xl sm:text-3xl text-gray-700 py-4 text-center">
+      <div className="container mx-auto max-w-7xl py-8">
+        <h1 className="font-bold text-2xl md:text-4xl sm:text-3xl text-gray-700 py-4 text-center">
           Ciclos de Projeto
         </h1>
         <p className="mt-4 p-4 text-gray-800">
