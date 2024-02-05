@@ -8,6 +8,8 @@ import CicloCl4 from '../components/Ciclos/CicloCl4'
 import CiclosAtividades from '../components/Ciclos/CiclosAtividades'
 import CicloOrg from '../components/Ciclos/CicloOrg'
 import CiclosBtn from '../components/Ciclos/CiclosBtn'
+import CiclosCiclos from '../components/Ciclos/CiclosCiclos'
+import CiclosCrono from '../components/Ciclos/CiclosCrono'
 
 
 
@@ -15,11 +17,13 @@ function Ciclos() {
   return (
     <>
         <CicloHero />
-        <CiclosProj1 />
+        <CiclosCiclos />
+        
         <CicloEd2 />
         <CiclosDica3 />
         <CicloCl4 />
-        <CiclosAtividades />
+        <CiclosCrono />
+        
         <CicloOrg />
         <CiclosBtn />
     </>

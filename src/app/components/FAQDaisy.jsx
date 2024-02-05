@@ -4,13 +4,13 @@ function FAQDaisy() {
   
   return (
     <div className="container mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between p-8">
-      <div className="md:w-1/2">
+      <div className="md:w-1/3">
         {/* Conteúdo da primeira coluna */}
-        <h1 className="text-5xl font-bold text-center text-gray-700">Materiais do Programa</h1>
-        <p className="text-xl font-gray-800 text-center mt-4">Saiba mais clicando sobre o material.</p>
+        <h1 className="text-4xl font-bold text-center text-slate-800">Materiais do Programa</h1>
+        <p className="text-lg font-gray-800 text-center mt-4">Saiba mais clicando sobre o material.</p>
         {/* Adicione sua imagem aqui, se necessário */}
       </div>
-      <div className="w-full md:w-1/2 mt-8 md:mt-0">
+      <div className="w-full md:w-2/3 mt-8 pl-8 md:mt-0">
         {/* Conteúdo da segunda coluna */}
         <Accordion variant='bordered'>
             <AccordionItem key="1" aria-label="Accordion 1" title="Livro do Estudante">

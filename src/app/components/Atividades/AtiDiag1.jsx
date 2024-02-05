@@ -37,7 +37,7 @@ const AtiDiag1 = () => {
                 aos estudantes via Google Sala de Aula, deixando o link disponível na aba Atividades da turma
                 correspondente. Você poderá visualizar os resultados de forma assíncrona, à medida que os jovens realizam
                 as atividades. Como todas as respostas ficarão disponíveis em seu Google Drive, você poderá acessá-las
-                sempre que necessário ao longo do projeto. Você pode se inspirar em um modelo clicando <a href="https://docs.google.com/forms/d/e/1FAIpQLSe_vQh5GpJaMKJxkzkDFi8VyFGxtnU5gOJQC_5AnFSXHVH4wA/viewform" target="_blank" rel="noopener noreferrer" className="underline"> aqui</a>.
+                sempre que necessário ao longo do projeto. Você pode se inspirar em um modelo clicando <a href="https://docs.google.com/forms/d/e/1FAIpQLSe_vQh5GpJaMKJxkzkDFi8VyFGxtnU5gOJQC_5AnFSXHVH4wA/viewform" target="_blank" rel="noopener noreferrer" className="underline text-blue-700 hover:text-purple-900"> aqui</a>.
 
               </p>
             </AccordionItem>

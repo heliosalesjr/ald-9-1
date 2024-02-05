@@ -42,35 +42,38 @@ const CicloCl4 = () => {
                         {renderCards()}
                     </div>
                 </div>
-                <p className='mx-8 p-12 max-w-5xl mx-auto text-center'>
-                    No Caderno do Educador, você encontra relatos da professora Jussara e do professor Carlos. São histórias fictícias, porém baseadas em fatos, que auxiliam na compreensão da proposta metodológica. 
-                    Para conhecer a professora Jussara e sua turma{" "}
-                    <a
-                        href="https://drive.google.com/file/d/1aOy-Kvy4J_JomVGX9dnIfruMNCKzoUW5/view?usp=sharing"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-blue-800 hover:text-blue-500 underline"
-                    >
-                        clique aqui
-                    </a>
-                    . Para conhecer o professor Carlos e seus alunos{" "}
-                    <a
-                        href="https://drive.google.com/file/d/10I3ST_oVOOT5lEGKxzunofwipacrPu7Y/view?usp=sharing"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-blue-800 hover:text-blue-500 underline"
-                    >
-                        clique aqui
-                    </a>
-                    . Neste 
-                    <a
-                        href="https://drive.google.com/file/d/1HW3kSZdflvTEPahPWPlQ3Oms1xgJ5GZ1/view?usp=sharing"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-blue-800 hover:text-blue-500 underline"
-                    > link</a>, 
-                    você pode conferir um exemplo de como esses relatos serão utilizados, com o exemplo do relato de culminância dos projetos das turmas de ambos os professores.
-                </p>
+                <div className='max-w-3xl mx-auto bg-slate-200 rounded-xl p-8 m-8'>
+                  <p className=' text-center p-2 m-2'>
+                      No Caderno do Educador, você encontra relatos da professora Jussara e do professor Carlos. São histórias fictícias, porém baseadas em fatos, que auxiliam na compreensão da proposta metodológica. 
+                      Para conhecer a professora Jussara e sua turma{" "}
+                      <a
+                          href="https://drive.google.com/file/d/1aOy-Kvy4J_JomVGX9dnIfruMNCKzoUW5/view?usp=sharing"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-800 hover:text-blue-500 underline"
+                      >
+                          clique aqui
+                      </a>
+                      . Para conhecer o professor Carlos e seus alunos{" "}
+                      <a
+                          href="https://drive.google.com/file/d/10I3ST_oVOOT5lEGKxzunofwipacrPu7Y/view?usp=sharing"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-800 hover:text-blue-500 underline"
+                      >
+                          clique aqui
+                      </a>
+                      . Neste 
+                      <a
+                          href="https://drive.google.com/file/d/1HW3kSZdflvTEPahPWPlQ3Oms1xgJ5GZ1/view?usp=sharing"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-800 hover:text-blue-500 underline"
+                      > link</a>, 
+                      você pode conferir um exemplo de como esses relatos serão utilizados, com o exemplo do relato de culminância dos projetos das turmas de ambos os professores.
+                  </p>
+                </div>
+                
         </div>
     </>
     

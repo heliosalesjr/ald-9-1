@@ -18,12 +18,14 @@ function CiclosProj1() {
       </div>
 
       <motion.div
-        className="flex flex-col md:flex-row gap-4 mx-auto max-w-screen-xl pb-12"
-        initial={{ opacity: 0, scale: 0.5 }}
-        whileInView={{ opacity: 1, scale: 1 }}
-      >
-        <Card className="px-4">
-          <CardBody className="flex flex-col justify-center">
+      className="flex flex-col gap-4 mx-auto max-w-screen-xl pb-12"
+      initial={{ opacity: 0, scale: 0.5 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+    >
+      <Card className="px-4">
+        <CardBody>
+          {/* Conteúdo de texto */}
+          <div className="flex flex-col">
             <h1 className="text-lg font-bold py-2">Ciclo de Projeto do Educador</h1>
             <p>
               O Ciclo de Projeto do Educador é a ferramenta de planejamento voltada para o professor e mostra como o
@@ -32,12 +34,15 @@ function CiclosProj1() {
               Projeto Coletivo. Posteriormente, seguem-se as etapas 4 (Execução das atividades), 5 (Avaliação de
               resultados) e 6 (Culminância). Nestas, os estudantes estarão desenvolvendo seu próprio projeto.
             </p>
-            {/* Adicionando a imagem cpeducador.jpg após o texto do primeiro card */}
-            <img src="/images/cpeducador.jpg" alt="Ciclo de Projeto do Educador" className="mt-8 px-12" />
-          </CardBody>
-        </Card>
-        <Card className="px-4">
-          <CardBody className="flex flex-col justify-center">
+          </div>
+          {/* Imagem */}
+          <img src="/images/cpeducador.jpg" alt="Ciclo de Projeto do Educador" className="mt-4 max-w-[200px]" />
+        </CardBody>
+      </Card>
+      <Card className="px-4">
+        <CardBody>
+          {/* Conteúdo de texto */}
+          <div className="flex flex-col">
             <h1 className="text-lg font-bold py-2">Ciclo do Projeto Coletivo</h1>
             <p>
               O Ciclo do Projeto Coletivo é a ferramenta de planejamento voltada para os estudantes para a Escolha de
@@ -46,12 +51,12 @@ function CiclosProj1() {
               conteúdos programados nas etapas seguintes do projeto dos estudantes: 4 (Execução das atividades), 5
               (Avaliação de resultados) e 6 (Culminância).
             </p>
-            {/* Adicionando a imagem cpcoletivo.png após o texto do segundo card */}
-            <img src="/images/cpcoletivo.png" alt="Ciclo do Projeto Coletivo" className="mt-4 px-8" />
-          </CardBody>
-        </Card>
-      </motion.div>
-
+          </div>
+          {/* Imagem */}
+          <img src="/images/cpcoletivo.png" alt="Ciclo do Projeto Coletivo" className="mt-4 max-w-[200px]" />
+        </CardBody>
+      </Card>
+    </motion.div>
       <div className="container mx-auto max-w-screen-xl py-8">
         
         <p className="mt-4 p-4 text-gray-800">
