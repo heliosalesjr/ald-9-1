@@ -59,8 +59,8 @@ function BaixeLivros() {
           <motion.div className="grid grid-cols-2 gap-4 mt-8"
             initial={{ opacity: 0, scale: 0.5 }}
             whileInView={{ opacity: 1, scale: 1 }}>
-            <img className="md:w-full" src="images/9estudante.png" alt="office content 1" />
-            <img className="mt-4 w-full lg:mt-10 " src="images/9educador.png" alt="office content 2" />
+            <img className="md:w-full" src="images/capaestuda9.png" alt="office content 1" />
+            <img className="mt-4 w-full lg:mt-10 " src="images/capaprofes9.png" alt="office content 2" />
           </motion.div>
         </div>
       </motion.div>

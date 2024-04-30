@@ -23,7 +23,7 @@ function HeroBento() {
       <div className="hidden md:block flex-1 relative mb-4 bg-gradient-to-b from-primary-focus to-primary-focus rounded-xl">
         {/* Div para a faixa transparente no topo 
         <div className="absolute top-0 left-0 w-full h-8 bg-white"></div>*/}
-        <div className="absolute inset-0 " style={{backgroundImage: 'url(images/maolivro9y.png)', backgroundSize: 'cover', backgroundPosition: 'top'}}></div>
+        <div className="absolute inset-0 " style={{backgroundImage: 'url(images/mao9.png)', backgroundSize: 'cover', backgroundPosition: 'top'}}></div>
       </div>
     </div>
   )
