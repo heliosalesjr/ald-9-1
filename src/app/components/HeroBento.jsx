@@ -2,15 +2,16 @@ import React from 'react'
 
 function HeroBento() {
   return (
-    <div className="flex h-[80vh] gap-4 max-w-7xl mx-auto px-4 pt-4">
+    <div className="flex h-[80vh] gap-4 max-w-7xl mx-auto px-4 pt-4 overflow:hidden">
       <div className="flex-1">
-      <div className="relative h-3/4 bg-blue-200 rounded-xl flex flex-col justify-center items-center">
+      <div className="relative h-3/4 bg-blue-200 rounded-xl flex flex-col justify-center items-center min-h-[450px]">
         <h1 className="text-5xl lg:text-6xl font-semibold text-slate-800 px-12">
           Aprendendo a Lidar com Dinheiro
         </h1>
 
+        
         <p className="text-slate-950 p-12 lg:pr-20 ">
-          Olá, professor e professora! Seja bem-vindo e bem-vinda ao site de apoio da coleção <strong>Aprendendo a Lidar com Dinheiro: Educação Financeira</strong>. Nesta seção, há informações sobre o que são os sites “Aprendendo a Lidar com Dinheiro” e como estão organizados, facilitando a navegação e consulta. Vamos conhecê-los?
+          Olá, professor e professora! Seja bem-vindo e bem-vinda ao site de apoio da coleção <strong>Aprendendo a Lidar com Dinheiro: Educação Financeira</strong>. Nesta seção, há informações sobre o que são nossos sites e como estão organizados, facilitando a navegação e consulta. Vamos conhecê-los?
         </p>
       </div>
         
