@@ -4,7 +4,7 @@ function HeroBento() {
   return (
     <div className="flex h-[80vh] gap-4 max-w-7xl mx-auto px-4 pt-4 overflow:hidden">
       <div className="flex-1">
-      <div className="relative h-3/4 bg-blue-200 rounded-xl flex flex-col justify-center items-center min-h-[450px]">
+      <div className="relative h-3/4 bg-blue-200 rounded-xl flex flex-col justify-center items-center min-h-[500px]">
         <h1 className="text-5xl lg:text-6xl font-semibold text-slate-800 px-12">
           Aprendendo a Lidar com Dinheiro
         </h1>
